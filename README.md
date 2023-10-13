@@ -2,7 +2,7 @@
 
 A responsive and user-friendly weather dashboard that allows users to search for current weather conditions and a 5-day forecast for cities around the world.
 
-![Weather Dashboard Screenshot](./Assets/mockupic)
+![Weather Dashboard Screenshot](./Assets/mockupic.png)
 
 ## Features
 
