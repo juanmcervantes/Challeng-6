@@ -1,3 +1,4 @@
+/* General styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #e6f7ff;
@@ -5,6 +6,7 @@ body {
     padding: 0;
 }
 
+/* Main app container */
 #app {
     max-width: 800px;
     margin: 2rem auto;
@@ -14,16 +16,19 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Title style */
 h1 {
     text-align: center;
 }
 
+/* Search container and inputs */
 #search-container {
     display: flex;
     justify-content: space-between;
     margin-bottom: 2rem;
 }
 
+/* City search input styles */
 #city-input {
     flex: 1;
     padding: 0.5rem;
@@ -32,6 +37,7 @@ h1 {
     border-radius: 4px;
 }
 
+/* Search button styles */
 #search-btn {
     padding: 0.5rem 1rem;
     background-color: #4CAF50;
@@ -46,15 +52,18 @@ h1 {
     background-color: #45a049;
 }
 
+/* Weather display styles */
 #weather-display {
     text-align: center;
 }
 
+/* Weather icon styles */
 #current-weather-icon {
     width: 50px;
     height: 50px;
 }
 
+/* Forecast container */
 #forecast {
     margin-top: 2rem;
 }

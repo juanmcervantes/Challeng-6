@@ -2,20 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- Responsive meta tag -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard</title>
+    <!-- Link to CSS -->
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
+    <!-- Main container -->
     <div id="app">
         <h1>Weather Dashboard</h1>
 
+        <!-- Search section -->
         <div id="search-container">
             <input type="text" id="city-input" placeholder="Search for a City">
             <button id="search-btn">Search</button>
             <ul id="search-history"></ul>
         </div>
 
+        <!-- Weather details display -->
         <div id="weather-display">
             <h2 id="city-name-date"></h2>
             <img id="current-weather-icon" src="./Assets/weather-icon.png" alt="Weather Icon">
@@ -24,11 +29,13 @@
             <p id="current-humidity"></p>
         </div>
 
+        <!-- Forecast section -->
         <div id="forecast">
-            <!-- You'll generate each day's forecast dynamically -->
+            <!-- Forecast content -->
         </div>
     </div>
 
+    <!-- JS Script -->
     <script src="JS/script.js"></script>
 </body>
 </html>
